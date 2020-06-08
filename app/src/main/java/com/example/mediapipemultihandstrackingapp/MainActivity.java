@@ -23,7 +23,7 @@ import java.util.List;
 /** Main activity of MediaPipe example apps. */
 public class MainActivity extends AppCompatActivity {
     private static final String TAG = "MainActivity";
-    private static final String BINARY_GRAPH_NAME = "multihandtrackinggpu.binarypb";
+    private static final String BINARY_GRAPH_NAME = "multi_hand_tracking_mobile_gpu.binarypb";
     private static final String INPUT_VIDEO_STREAM_NAME = "input_video";
     private static final String OUTPUT_VIDEO_STREAM_NAME = "output_video";
     private static final String OUTPUT_LANDMARKS_STREAM_NAME = "multi_hand_landmarks";
